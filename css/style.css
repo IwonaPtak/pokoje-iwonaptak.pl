@@ -1,0 +1,105 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.6rem;
+	color: #01305c;
+}
+
+[id] {
+	scroll-margin-top: 69px;
+}
+
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	z-index: -1;
+}
+
+.orange-color {
+	color: rgba(255, 102, 0);
+}
+.blue-color {
+	color: #a5cceb;
+	color: #a5cceb;
+}
+.navbar-brand {
+	font-size: 2.2rem;
+	text-transform: uppercase;
+}
+
+.nav-link,
+.navbar-toggler-icon {
+	text-transform: uppercase;
+	font-size: 1.8rem;
+}
+
+.home {
+	position: relative;
+	height: 60rem;
+	background-image: url(../img/hero-img-1280.jpg);
+	background-size: cover;
+	background-position: center;
+	z-index: 0;
+}
+
+.btn {
+	padding: 1em 2em;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+.home .welcome-text {
+	font-size: 2.2rem;
+}
+
+.accordion-button {
+	padding: 1em;
+	font-size: 1.8rem;
+	font-weight: bold;
+	/* background-color: #a5cceb; */
+}
+
+.about-boxes {
+	padding: 1em;
+	position: relative;
+}
+
+.box-caption {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	margin: 1em;
+	padding: 0.5em;
+}
+
+.town-info {
+	padding: 1em 0;
+}
+
+.contact h3 {
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.contact .submit-btn {
+	font-size: 1.6rem;
+}
